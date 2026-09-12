@@ -15,7 +15,8 @@ while True:
 
     if opcao == "1":
         tipo = "receita"
-        valor = input("Digite o valor da receita: ")       
+        valor = input("Digite o valor da receita: ")
+        print("\n")      
    
         try:
             receita_atual = float(valor)
@@ -33,21 +34,23 @@ while True:
                 movimentacao.append(nova_movimentacao)     
         except ValueError:
             print("O valor que digitou é invalido. Tente novamente.")
-
-        print("\n")
-
+            
     elif opcao == "2":
         tipo = "despesa"
         valor = input("Digite o valor da despesa: ")
         print("\n")
-        destino = input("Descrição(destino): ")
+        
         try:
             despesa_atual = float(valor)
+
             if despesa_atual <= 0:
                 print("Valor inválido.")
+
             elif despesa_atual > saldo_conta:
                 print("Saldo em conta insuficiente.")
+
             else:
+                destino = input("Descrição(destino): ")
                 saldo_conta -= despesa_atual
                 nova_movimentacao = {
                     "tipo": tipo,
@@ -57,6 +60,7 @@ while True:
                 movimentacao.append(nova_movimentacao)
         except ValueError:
             print("O valor que digitou é invalido. Tente novamente.")
+
     elif opcao == "3":
         print("""
 ================== MOVIMENTAÇÃO =====================
