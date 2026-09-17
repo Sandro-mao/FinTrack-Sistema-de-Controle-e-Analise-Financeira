@@ -51,79 +51,68 @@ Serão aplicados:
 
 ---
 
-# 🚀 Versão 1.0 — Núcleo Financeiro
+## 📌 Status do Projeto
 
-A primeira versão do FinTrack tem como objetivo criar a base do sistema e permitir o registro e controle das movimentações financeiras.
-
-## Funcionalidades
-
-### 💵 Registrar Receita
-
-Permite registrar uma entrada de dinheiro informando:
-
-- Valor da receita
-- Descrição da fonte da receita
-
-Exemplos:
-
-- Salário
-- Uber
-- Venda de produto
-- Freelance
-- Reembolso
-
-### 💸 Registrar Despesa
-
-Permite registrar uma saída de dinheiro informando:
-
-- Valor da despesa
-- Descrição do destino da despesa
-
-Exemplos:
-
-- Mercado
-- Combustível
-- Faculdade
-- Internet
-- Parcela de veículo
-
-O sistema também verifica se:
-
-- O valor é maior que zero
-- Existe saldo suficiente para realizar a despesa
-
-### 📋 Ver Movimentações
-
-Exibe todas as receitas e despesas registradas durante a execução do programa.
-
-Cada movimentação contém informações como:
-
-- Tipo
-- Origem ou destino
-- Valor
-
-### 💰 Consultar Saldo
-
-Permite consultar o saldo atual da conta após as movimentações realizadas.
-
-### 🚪 Encerrar Sistema
-
-Permite sair do sistema através do menu principal.
+- ✅ **Etapa 1 — Núcleo Financeiro** → Concluída com sucesso  
+- ✅ **Etapa 2 — Análise Financeira** → Concluída com sucesso  
+- ⏳ **Etapa 3 — Programação Orientada a Objetos** → Em breve
 
 ---
 
-## 🖥️ Menu Atual
+## 🚀 Versão 2.0 — Análise Financeira
+
+Nesta versão, o sistema foi reorganizado com o uso de **funções** e ganhou recursos de análise financeira.
+
+### Funcionalidades
+
+- **Registrar Receita**  
+  Adiciona entradas de dinheiro com valor e descrição da fonte.
+
+- **Registrar Despesa**  
+  Registra saídas de dinheiro com validação de valor positivo e saldo suficiente.
+
+- **Ver Movimentações**  
+  Exibe todas as receitas e despesas registradas.
+
+- **Consultar Saldo**  
+  Mostra o saldo atual da conta.
+
+- **Análise Financeira**  
+  Gera um relatório com:
+  - Total de receitas e despesas
+  - Quantidade de cada tipo de movimentação
+  - Maior despesa
+  - Percentual de despesas sobre as receitas
+  - Resultado financeiro (Positivo / Negativo / Equilibrado)
+
+### Menu Atual
 
 ```text
 ========== FINTRACK ==========
-
+    0 - Sair
     1 - Registrar receita
     2 - Registrar despesa
     3 - Ver movimentações
     4 - Consultar saldo
-    5 - Sair
-
+    5 - Análise Financeira
 ===============================
+```
+### Exemplo de Análise Financeira
+
+```text
+========== ANÁLISE FINANCEIRA ==========
+| 
+| Total de receitas: R$ 3500.00
+| Total de despesas: R$ 1200.50
+| Saldo atual: R$ 2299.50
+| 
+| Quantidade de receitas: 2
+| Quantidade de despesas: 3
+| 
+| Maior despesa: R$ 600.00
+| Percentual de despesas: 34.30%
+| Resultado financeiro: POSITIVO
+=========================================
 ```
 
 ## 🗂️ Estrutura dos Dados
