@@ -1,53 +1,8 @@
 # 💰 FinTrack — Sistema de Controle e Análise Financeira
 
-O **FinTrack** é um projeto desenvolvido em Python com o objetivo de praticar conceitos de programação aplicados a um cenário financeiro.
+O **FinTrack** é um projeto desenvolvido em Python com o objetivo de praticar conceitos de programação aplicados a um cenário financeiro real.
 
-A proposta é construir o sistema de forma evolutiva, começando com um controle financeiro básico e, posteriormente, adicionando recursos de análise e uma estrutura utilizando Programação Orientada a Objetos (POO).
-
----
-
-## 🎯 Objetivo do Projeto
-
-O FinTrack será desenvolvido em **3 etapas**, permitindo acompanhar a evolução do projeto desde os fundamentos da programação até uma estrutura mais organizada e orientada a objetos.
-
-### Etapa 1 — Núcleo Financeiro
-
-Construção da primeira versão funcional do sistema utilizando os fundamentos de Python:
-
-- Variáveis
-- Entrada e saída de dados
-- Estruturas condicionais
-- Estruturas de repetição
-- Listas
-- Dicionários
-- Tratamento de exceções
-- Operadores matemáticos
-
-### Etapa 2 — Análise Financeira
-
-A segunda versão terá como objetivo transformar os dados registrados em informações úteis para análise financeira.
-
-Serão adicionados recursos como:
-
-- Total de receitas
-- Total de despesas
-- Saldo financeiro
-- Maior despesa
-- Análise das movimentações
-- Indicadores financeiros
-
-### Etapa 3 — Programação Orientada a Objetos
-
-Na terceira versão, o sistema será reorganizado utilizando conceitos de POO estudados durante o desenvolvimento.
-
-Serão aplicados:
-
-- Classes e objetos
-- Atributos e métodos
-- Encapsulamento
-- Herança
-- Polimorfismo
-- Classes abstratas
+O sistema está sendo construído de forma evolutiva, passando por diferentes etapas de complexidade até chegar em uma estrutura orientada a objetos.
 
 ---
 
